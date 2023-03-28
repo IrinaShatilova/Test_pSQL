@@ -42,5 +42,5 @@ FROM employee
 GROUP BY first_name
 HAVING count(first_name) > 1
 ORDER BY max_age;
-
+SELECT * FROM employee;
 
